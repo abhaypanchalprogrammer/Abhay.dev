@@ -38,6 +38,7 @@ const Projects = () => {
             key={project.name}
             className="group transition-transform duration-300 hover:scale-[1.02]"
           >
+          
             <div className="relative w-full h-80 md:h-96 overflow-hidden rounded-3xl border border-white/10">
               <img
                 src={project.image}
@@ -45,7 +46,7 @@ const Projects = () => {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
 
-              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 flex justify-center items-center gap-6 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 hidden lg:flex justify-center items-center gap-6 transition-opacity duration-300">
                 <a
                   href={project.liveLink}
                   target="_blank"
@@ -74,10 +75,31 @@ const Projects = () => {
                 {project.description}
               </p>
 
-              <div className="flex flex-wrap gap-4 text-sm text-white/60">
+             
+              <div className="flex flex-wrap items-center gap-4 text-sm text-white/60">
                 {project.tags.map((tag) => (
                   <span key={tag}>{tag}</span>
                 ))}
+
+              
+                <div className="flex gap-4 lg:hidden ml-auto text-white">
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl hover:text-cyan-400 transition"
+                  >
+                    <FaExternalLinkAlt />
+                  </a>
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl hover:text-cyan-400 transition"
+                  >
+                    <FaGithub />
+                  </a>
+                </div>
               </div>
 
               <div className="mt-8 w-12 h-px bg-white/30" />
