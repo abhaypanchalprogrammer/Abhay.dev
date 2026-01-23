@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="animate-fade h-screen px-4 sm:px-10 md:px-20 flex flex-col justify-end items-start pb-10 sm:pb-12 md:pb-15 text-left"
+      className="animate-fade h-screen px-4 sm:px-10  md:px-20 flex flex-col justify-end items-start pb-20 sm:pb-12 md:pb-15 text-left"
     >
       <h2 className="text-6xl sm:text-6xl md:text-6xl lg:text-8xl font-bold mb-4 text-white">
         Abhay's <span className="text-cyan-500">Portfolio</span>
