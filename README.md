@@ -34,6 +34,7 @@ Why it slaps :-
 - Clean, reusable React components
 - Modern UI with responsive layout
 - 🔗 Live: https://nex-vibe-app.vercel.app/
+- Github (Code) :- https://github.com/abhaypanchalprogrammer/NexVibe
 - 🧰 Stack: React, Tailwind CSS, API
 
 2) -> 📊 Product Dashboard :-
@@ -47,8 +48,9 @@ What’s inside :-
 - Reusable dashboard components
 - Minimal UI, max readability
 - Scalable layout (admin-panel ready)
-- 🧰 Stack: React, Tailwind CSS
 - Live Demo - https://dashboardap.netlify.app/
+- Github (Code) :- https://github.com/abhaypanchalprogrammer/Dashboard
+- 🧰 Stack: React, Tailwind CSS
   
 -- 📈 My Dev Arc :- 
 
