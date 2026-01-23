@@ -63,12 +63,14 @@ const Header = () => {
           >
             Contact
           </a>
+          <a href="https://abhaypanchalprogrammer.github.io/Resume/Abhay-Resume.pdf">
           <button
             className="px-10 py-2 rounded-xl bg-white text-black hover:bg-black hover:text-white transition-all duration-300"
             onClick={() => setIsOpen(false)}
           >
             Resume
           </button>
+          </a>
         </div>
       )}
     </nav>
@@ -76,3 +78,4 @@ const Header = () => {
 };
 
 export default Header;
+
