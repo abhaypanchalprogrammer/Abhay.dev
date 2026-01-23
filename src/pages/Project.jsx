@@ -9,7 +9,7 @@ const projects = [
     description:
       "A modern e-commerce frontend built with React, TailwindCSS, and API integration.",
     image: nexvibe,
-    liveLink: "https://nex-vibe-app.vercel.app/",
+    liveLink: "https://nex-vibe.netlify.app/",
     githubLink: "https://github.com/abhaypanchalprogrammer/NexVibe",
     tags: ["React", "Tailwind", "API"],
   },
@@ -112,3 +112,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
