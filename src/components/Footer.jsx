@@ -19,7 +19,7 @@ const Footer = () => {
           Home
         </a>
         <a
-          href="#projects"
+          href="#project"
           className="hover:text-cyan-400 transition-colors duration-300"
         >
           Projects
@@ -67,3 +67,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
