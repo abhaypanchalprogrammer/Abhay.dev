@@ -28,7 +28,7 @@ const Header = () => {
           Contact
         </a>
       </div>
-      <a href="https://abhaypanchalprogrammer.github.io/Resume/Abhay.pdf">
+      <a href="https://abhaypanchalprogrammer.github.io/Resume/Abhay_Resume.pdf">
       <button className="hidden lg:block text-lg px-10 py-1.5 rounded-xl bg-cyan-400 font-semibold text-black hover:bg-cyan-300 cursor-pointer">
         Resume
       </button>
@@ -79,6 +79,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
 
