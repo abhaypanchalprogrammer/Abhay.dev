@@ -1,21 +1,26 @@
 import React from "react";
-import { FaCode, FaReact, FaTools } from "react-icons/fa";
+import { FaCode, FaServer,FaDatabase, FaTools } from "react-icons/fa";
 
 const skillCategories = [
   {
     category: "Frontend",
     icon: <FaCode className="text-cyan-400/60 text-xl" />,
-    skills: ["HTML", "CSS", "JavaScript"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "TailwindCSS"],
   },
   {
-    category: "Library & Frameworks",
-    icon: <FaReact className="text-cyan-400/60 text-xl" />,
-    skills: ["React", "TailwindCSS"],
+    category: "Backend",
+    icon: <FaServer className="text-cyan-400/60 text-xl" />,
+    skills: ["Node.js", "Express.js", "JWT", "bcrypt"],
+  },
+  {
+    category: "Database",
+    icon: <FaDatabase className="text-cyan-400/60 text-xl" />,
+    skills: ["MongoDB", "Mongoose"],
   },
   {
     category: "Tools",
     icon: <FaTools className="text-cyan-400/60 text-xl" />,
-    skills: ["Git", "GitHub", "Vercel", "Netlify"],
+    skills: ["Git", "GitHub", "Vercel", "Netlify", "Postman", "Thunder Client", "ImageKit"],
   },
 ];
 
@@ -61,3 +66,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
