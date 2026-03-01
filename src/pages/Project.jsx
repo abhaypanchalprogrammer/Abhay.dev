@@ -2,14 +2,25 @@ import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import nexvibe from "../assets/nexvibe.png";
 import dashboard from "../assets/dashboard.png";
+import socialMedia from "../assets/socialmedia.png";
 
 const projects = [
+  {
+    name: "SocialSphere - Full Stack Social Media",
+    description:
+      "A full-stack social media platform with secure authentication, post creation, like/dislike toggle, follow/unfollow system, and image uploads.",
+    image: socialMedia,
+    liveLink: "https://app-socialmedia-app.vercel.app/",
+    githubLink:
+      "https://github.com/abhaypanchalprogrammer/Backend/tree/main/Projects/Project-1_Social-Media",
+    tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "ImageKit"],
+  },
   {
     name: "NexVibe E-Commerce",
     description:
       "A modern e-commerce frontend built with React, TailwindCSS, and API integration.",
     image: nexvibe,
-    liveLink: "https://nex-vibe.netlify.app/",
+    liveLink: "https://nex-vibe-app.vercel.app/",
     githubLink: "https://github.com/abhaypanchalprogrammer/NexVibe",
     tags: ["React", "Tailwind", "API"],
   },
@@ -38,7 +49,7 @@ const Projects = () => {
             key={project.name}
             className="group transition-transform duration-300 hover:scale-[1.02]"
           >
-          
+            {/* Image */}
             <div className="relative w-full h-80 md:h-96 overflow-hidden rounded-3xl border border-white/10">
               <img
                 src={project.image}
@@ -66,6 +77,7 @@ const Projects = () => {
               </div>
             </div>
 
+            {/* Content */}
             <div className="mt-8">
               <h3 className="text-2xl font-semibold text-white mb-3">
                 {project.name}
@@ -75,13 +87,13 @@ const Projects = () => {
                 {project.description}
               </p>
 
-             
+              {/* Tech + Mobile/Tablet Icons */}
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/60">
                 {project.tags.map((tag) => (
                   <span key={tag}>{tag}</span>
                 ))}
 
-              
+                {/* Icons visible ONLY on mobile & tablet */}
                 <div className="flex gap-4 lg:hidden ml-auto text-white">
                   <a
                     href={project.liveLink}
@@ -112,4 +124,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
