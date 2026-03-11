@@ -48,7 +48,7 @@ const Footer = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/abhaypanchal/"
+          href="https://www.linkedin.com/in/abhay-panchal-dev/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-cyan-400 transition-colors duration-300"
@@ -67,4 +67,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
