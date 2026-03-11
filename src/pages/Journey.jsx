@@ -26,10 +26,10 @@ const timelineData = [
       "Developed NexVibe e-commerce, dashboards, and reusable frontend systems.",
   },
   {
-    title: "DSA Journey Start",
+    title: "DSA + Full Stack Journey Start",
     date: "2026",
     description:
-      "Started my Data Structures & Algorithms journey with a focus on problem-solving.",
+      "Building problem-solving skills through DSA while advancing full-stack development expertise.",
   },
 ];
 
@@ -71,3 +71,4 @@ const Journey = () => {
 };
 
 export default Journey;
+
