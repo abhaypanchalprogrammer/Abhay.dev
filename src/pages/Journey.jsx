@@ -3,7 +3,7 @@ import React from "react";
 const timelineData = [
   {
     title: "Started Frontend Journey",
-    date: "2025",
+    date: "2024",
     description:
       "Began learning HTML, CSS, and JavaScript. Built static websites and small UI projects.",
   },
@@ -71,5 +71,6 @@ const Journey = () => {
 };
 
 export default Journey;
+
 
 
