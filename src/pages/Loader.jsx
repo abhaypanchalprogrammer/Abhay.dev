@@ -12,7 +12,7 @@ const Loader = () => {
         Welcome To Abhay's World
       </h1>
       <p className="text-gray-400 animate-fadeIn delay-200">
-        Frontend Developer
+        Full Stack Developer
       </p>
 
       <div className="w-80 h-1 bg-gray-700 rounded overflow-hidden">
@@ -23,3 +23,4 @@ const Loader = () => {
 };
 
 export default Loader;
+
