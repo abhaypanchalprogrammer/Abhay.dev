@@ -29,7 +29,7 @@ const About = () => {
           <div className="space-y-6 text-sm uppercase tracking-widest text-white/60">
             <span className="block">- React Architecture</span>
             <span className="block">- UI Engineering</span>
-            <span className="block">- Front-End Development</span>
+            <span className="block">- Full Stack Development</span>
           </div>
         </div>
       </div>
@@ -38,3 +38,4 @@ const About = () => {
 };
 
 export default About;
+
