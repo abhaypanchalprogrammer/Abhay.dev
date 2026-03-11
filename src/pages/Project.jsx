@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import nexvibe from "../assets/nexvibe.png";
+import mystore from "../assets/mystore.png";
 import dashboard from "../assets/dashboard.png";
 import socialMedia from "../assets/socialmedia.png";
 
@@ -16,12 +16,12 @@ const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "JWT", "ImageKit"],
   },
   {
-    name: "NexVibe E-Commerce",
+    name: "MyStore E-Commerce",
     description:
       "A modern e-commerce frontend built with React, TailwindCSS, and API integration.",
-    image: nexvibe,
-    liveLink: "https://nex-vibe-app.vercel.app/",
-    githubLink: "https://github.com/abhaypanchalprogrammer/NexVibe",
+    image: mystore,
+    liveLink: "https://mystore-ecomm.vercel.app/home",
+    githubLink: "https://github.com/abhaypanchalprogrammer/Assignment",
     tags: ["React", "Tailwind", "API"],
   },
   {
@@ -124,3 +124,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
