@@ -10,11 +10,11 @@ const Hero = () => {
         Abhay's <span className="text-cyan-500">Portfolio</span>
       </h2>
       <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 text-gray-300">
-        Frontend Developer
+        Full Stack Developer | MERN
       </h3>
       <p className="text-base sm:text-lg md:text-xl max-w-full md:max-w-lg text-gray-400">
         I build modern, responsive, and interactive web applications using
-        React, TailwindCSS, and JavaScript.
+       React.js, Node.js Express.js, MongoDB.
       </p>
       <a href="#project">
         <button className="cursor-pointer font-semibold mt-6 sm:mt-8 px-4 sm:px-6 py-1 sm:py-3 bg-cyan-400 hover:bg-cyan-300 text-black rounded-lg  ">
@@ -27,3 +27,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
