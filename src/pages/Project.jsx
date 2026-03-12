@@ -3,7 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import mystore from "../assets/mystore.png";
 import dashboard from "../assets/dashboard.png";
 import socialMedia from "../assets/socialmedia.png";
-import moodify from "../assets/Moodify.png
+import moodify from "../assets/Moodify.png";
 
 const projects = [
    {
@@ -135,5 +135,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
