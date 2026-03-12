@@ -3,10 +3,20 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import mystore from "../assets/mystore.png";
 import dashboard from "../assets/dashboard.png";
 import socialMedia from "../assets/socialmedia.png";
+import moodify from "../assets/Moodify.png
 
 const projects = [
+   {
+  name: "Moodify",
+  description:
+    "A full-stack web app that detects facial expressions in real time and recommends songs based on the user's mood. Built with a modern MERN architecture and face detection using MediaPipe.",
+  image: moodify,
+  liveLink: "https://your-moodify-site.onrender.com",
+  githubLink: "https://github.com/abhaypanchalprogrammer/moodify",
+  tags: ["React", "Node.js", "Express", "MongoDB", "MediaPipe"],
+},
   {
-    name: "SocialSphere - Full Stack Social Media",
+    name: "SocialMedia - Full Stack Social Media",
     description:
       "A full-stack social media platform with secure authentication, post creation, like/dislike toggle, follow/unfollow system, and image uploads.",
     image: socialMedia,
@@ -33,6 +43,7 @@ const projects = [
     githubLink: "https://github.com/abhaypanchalprogrammer/Dashboard",
     tags: ["React", "Charts", "Tailwind"],
   },
+ 
 ];
 
 const Projects = () => {
@@ -124,4 +135,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
