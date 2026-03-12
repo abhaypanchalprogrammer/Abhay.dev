@@ -11,8 +11,8 @@ const projects = [
   description:
     "A full-stack web app that detects facial expressions in real time and recommends songs based on the user's mood. Built with a modern MERN architecture and face detection using MediaPipe.",
   image: moodify,
-  liveLink: "https://your-moodify-site.onrender.com",
-  githubLink: "https://github.com/abhaypanchalprogrammer/moodify",
+  liveLink: "https://moodify-x9bt.onrender.com/",
+  githubLink: "https://github.com/abhaypanchalprogrammer/Backend/tree/main/Projects/Project-2_Moodify",
   tags: ["React", "Node.js", "Express", "MongoDB", "MediaPipe"],
 },
   {
@@ -135,6 +135,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
